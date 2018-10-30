@@ -1,0 +1,185 @@
+---
+name: BitD Location
+categories:
+- Location
+
+resultPattern: |-
+  || {b|Type} || {b|Exterior} || {b|Detail} || {b|Location}
+  || {b|Common} || {exterior-material} / {exterior-detail} || {feature} || {common}
+  || {b|Rare} || {exterior-material} / {exterior-detail} || {feature} || {rare}
+
+tables:
+# EXTERIOR
+- name: exterior-material
+  explanation: The exterior material
+  entries:
+  - Cut Stone Blocks
+  - Gray Bricks
+  - Metal Sheeting
+  - Plaster Board & Timbers
+  - Stone & Timber
+  - Wooden Boards
+
+- name: exterior-detail
+  explanation: The exterior detail
+  entries:
+  - Glass Work
+  - Iron Work
+  - Landscaping
+  - Stone Work
+  - Tile Work
+  - Wood Work
+
+# FEATURE
+- name: feature
+  explanation: A small detail / An interesting feature
+  entries:
+  - Dripping Water
+  - Creaking Floorboards
+  - Roaring Fires
+  - Smoky Lamps
+  - Buzzing Electrical Light
+  - Ticking Clockworks
+  - Plants / Flowers
+  - Artwork / Wall Hangings
+  - Shuttered Windows
+  - Heavy Curtains / Thick Carpet
+  - Dust / Detritus
+  - Wear / Damange
+  - Threadbare / Tattered
+  - Utilitarian Furnishings
+  - Elegant Finery
+  - Lush / Comfortable
+  - Rough-Spun Simplicity
+  - Spartan Austerity
+  - Circular Stairs / Ladders
+  - Secret Doors
+  - Catwalks
+  - Skylights
+  - Balcony
+  - Cellar
+  - Drafty / Cold
+  - Stout / Quiet
+  - Cozy / Warm
+  - Vaulted / Spatious
+  - Low / Cramped
+  - Rickety / Ramshackle
+  - Strange Devices
+  - Weird Artifacts
+  - Spirit Wards / Old Runes
+  - Piled Jumble of Curious
+  - Antique Appointments
+  - Shrine / Altar
+
+# COMMON
+- name: common
+  explanation: Any common building
+  entries:
+  - '{common-industry}'
+  - '{common-living}'
+  - '{common-other}'
+  - '{common-public}'
+  - '{common-quiet}'
+  - '{common-social}'
+
+- name: common-industry
+  explanation: Common places for any kind of industry or production
+  entries:
+  - Bakery
+  - Brewery
+  - Butchery
+  - Dock
+  - Eelery
+  - Factory
+  - Forge
+  - Goat Stable
+  - Mushroom Garden
+  - Refinery
+  - Stockyard
+  - Tailory
+  - Warehouse
+  - Work House
+  - Workshop
+
+- name: common-living
+  explanation: Common places for people to live at/in
+  entries:
+  - Apartment Building
+  - Bunk House
+  - Row House
+  - Small House
+  - Tenements
+
+- name: common-other
+  explanation: Other common places which don't fit anywhere else
+  entries:
+  - Physicker
+  - Tattooist
+  - Watch Post
+
+- name: common-public
+  explanation: Common places for public appearance or access
+  entries:
+  - Court
+  - Jail
+  - Market
+  - Square / Fountain
+
+- name: common-quiet
+  explanation: Common places which are broken down and derelict
+  entries:
+  - Grotto
+  - Ruin
+  - Shrine
+
+- name: common-social
+  explanation: Common places for social gatherings
+  entries:
+  - Bath House
+  - Brothel
+  - Fighting Pits
+  - Drug Den
+  - Gambling Hall
+  - Inn
+  - Tavern
+
+# RARE
+# TODO: Split into categories
+- name: rare
+  entries:
+  - Market House
+  - Restaurant
+  - Bar / Lounge
+  - Academy
+  - Salon
+  - Café
+  - Florist
+  - Tobacconist
+  - Book Shop
+  - Jeweler
+  - Clothier
+  - Gallery
+  - Apothecary
+  - Horse Stable
+  - Distillery
+  - Vintner
+  - Master Artisan
+  - Boat House
+  - Theater
+  - Opera House
+  - Apartment Building
+  - Townhouse
+  - Manor
+  - Villa
+  - Clinic
+  - Temple
+  - Cistern
+  - Watch Post
+  - Park
+  - Monument
+  - Archive
+  - Spiritualist
+  - Bank
+  - Alchemist
+  - Power Plant
+  - Radiant Energy Garden
